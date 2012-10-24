@@ -39,7 +39,8 @@
       <plugin>
         <groupId>org.apache.sling</groupId>
         <artifactId>maven-launchpad-plugin</artifactId>
-		<version>2.1.2</version>
+		<!-- the bug we circumvent by using the stanbol parent is fixed with 2.1.4 -->
+		<!-- <version>2.1.2</version> -->
         <extensions>true</extensions>
         <executions>
           <execution>
