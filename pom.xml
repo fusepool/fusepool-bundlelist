@@ -18,11 +18,11 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <!-- this parent does something that prevents https://issues.apache.org/jira/browse/SLING-2620, don't know what -->
-  <parent>
+  <!-- <parent>
     <groupId>org.apache.stanbol</groupId>
     <artifactId>stanbol-parent</artifactId>
     <version>2-SNAPSHOT</version>
-  </parent>
+  </parent> -->
 
   <groupId>eu.fusepool</groupId>
   <artifactId>fusepool-bundlelist</artifactId>
@@ -39,6 +39,7 @@
       <plugin>
         <groupId>org.apache.sling</groupId>
         <artifactId>maven-launchpad-plugin</artifactId>
+        <version>2.2.0</version>
 		<!-- the bug we circumvent by using the stanbol parent is fixed with 2.1.4 -->
 		<!-- <version>2.1.2</version> -->
         <extensions>true</extensions>
