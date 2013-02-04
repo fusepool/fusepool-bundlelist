@@ -40,20 +40,7 @@
         <groupId>org.apache.sling</groupId>
         <artifactId>maven-launchpad-plugin</artifactId>
         <version>2.2.0</version>
-		<!-- the bug we circumvent by using the stanbol parent is fixed with 2.1.4 -->
-		<!-- <version>2.1.2</version> -->
         <extensions>true</extensions>
-        <executions>
-          <execution>
-            <id>attach-bundle-list</id>
-            <goals>
-              <goal>attach-bundle-list</goal>
-            </goals>
-            <configuration>
-              <includeDefaultBundles>false</includeDefaultBundles>
-            </configuration>
-          </execution>
-        </executions>
       </plugin>
     </plugins>
   </build>
