@@ -20,6 +20,11 @@
 		<groupId>eu.fusepool</groupId>
 		<artifactId>eu.fusepool.platform.commons.felixbranding</artifactId>
 		<version>0.1-SNAPSHOT</version>
+    <bundle>
+		<groupId>eu.fusepool</groupId>
+		<artifactId>firstswim</artifactId>
+		<version>0.1-SNAPSHOT</version>
     </bundle>
+   </bundle>
   </startLevel>
 </bundles>
