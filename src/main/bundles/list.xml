@@ -15,31 +15,31 @@
    limitations under the License.
 -->
 <bundles>
-  <startLevel level="10">
-    <bundle>
-		<groupId>eu.fusepool</groupId>
-		<artifactId>eu.fusepool.platform.commons.felixbranding</artifactId>
-		<version>0.1-SNAPSHOT</version>
-    </bundle>
-    <bundle>
-		<groupId>eu.fusepool</groupId>
-		<artifactId>firstswim</artifactId>
-		<version>1.0-SNAPSHOT</version>
-    </bundle>
-    <bundle>
-		<groupId>org.apache.clerezza</groupId>
-		<artifactId>rdf.cris.ontologies</artifactId>
-		<version>0.1-incubating</version>
-    </bundle>
-    <bundle>
-		<groupId>org.apache.clerezza</groupId>
-		<artifactId>rdf.cris.core</artifactId>
-		<version>0.2-SNAPSHOT</version>
-    </bundle>
-    <bundle>
-		<groupId>org.apache.clerezza</groupId>
-		<artifactId>platform.cris</artifactId>
-		<version>0.2-SNAPSHOT</version>
-    </bundle>
-  </startLevel>
+    <startLevel level="10">
+        <bundle>
+            <groupId>eu.fusepool</groupId>
+            <artifactId>eu.fusepool.platform.commons.felixbranding</artifactId>
+            <version>0.1-SNAPSHOT</version>
+        </bundle>
+        <bundle>
+            <groupId>eu.fusepool</groupId>
+            <artifactId>firstswim</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </bundle>
+        <bundle>
+            <groupId>org.apache.clerezza</groupId>
+            <artifactId>rdf.cris.ontologies</artifactId>
+            <version>0.1-incubating</version>
+        </bundle>
+        <bundle>
+            <groupId>org.apache.clerezza</groupId>
+            <artifactId>rdf.cris.core</artifactId>
+            <version>0.2-SNAPSHOT</version>
+        </bundle>
+        <bundle>
+            <groupId>org.apache.clerezza</groupId>
+            <artifactId>platform.cris</artifactId>
+            <version>0.2-SNAPSHOT</version>
+        </bundle>
+    </startLevel>
 </bundles>
