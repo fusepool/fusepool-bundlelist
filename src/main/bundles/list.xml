@@ -27,6 +27,16 @@
             <version>1.0-SNAPSHOT</version>
         </bundle>
         <bundle>
+            <groupId>eu.fusepool</groupId>
+            <artifactId>ecs.ontologies</artifactId>
+            <version>0.1-SNAPSHOT</version>
+        </bundle>
+        <bundle>
+            <groupId>eu.fusepool</groupId>
+            <artifactId>ecs.core</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </bundle>
+        <bundle>
             <groupId>org.apache.clerezza</groupId>
             <artifactId>rdf.cris.ontologies</artifactId>
             <version>0.1-incubating</version>
@@ -45,6 +55,11 @@
             <groupId>org.apache.clerezza</groupId>
             <artifactId>platform.content</artifactId>
             <version>0.14-SNAPSHOT</version>
+        </bundle>
+        <bundle>
+            <groupId>org.apache.clerezza</groupId>
+            <artifactId>platform.content.default404</artifactId>
+            <version>0.2-SNAPSHOT</version>
         </bundle>
         <bundle>
             <groupId>org.apache.clerezza</groupId>
