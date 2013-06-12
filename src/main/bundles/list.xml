@@ -37,6 +37,16 @@
             <version>1.0-SNAPSHOT</version>
         </bundle>
         <bundle>
+            <groupId>eu.fusepool</groupId>
+            <artifactId>enhancer.engines.ners</artifactId>
+            <version>1.1-SNAPSHOT</version>
+        </bundle>
+   	  <bundle>
+            <groupId>eu.fusepool</groupId>
+            <artifactId>enhancer.engines.dictionaryannotator</artifactId>
+            <version>1.1-SNAPSHOT</version>
+        </bundle>
+        <bundle>
             <groupId>org.apache.clerezza</groupId>
             <artifactId>rdf.cris.ontologies</artifactId>
             <version>0.1-incubating</version>
