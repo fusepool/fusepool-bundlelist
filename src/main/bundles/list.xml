@@ -54,7 +54,7 @@
         <bundle>
             <groupId>org.apache.clerezza</groupId>
             <artifactId>rdf.cris.core</artifactId>
-            <version>0.2-SNAPSHOT</version>
+            <version>0.2</version>
         </bundle>
         <bundle>
             <groupId>org.apache.clerezza</groupId>
@@ -154,7 +154,7 @@
         <bundle>
             <groupId>org.apache.clerezza.scala</groupId>
             <artifactId>script-engine</artifactId>
-            <version>0.2-SNAPSHOT</version>
+            <version>0.2</version>
         </bundle>
         <bundle>
             <groupId>org.apache.clerezza</groupId>
@@ -174,7 +174,7 @@
         <bundle>
             <groupId>org.apache.clerezza.ext</groupId>
             <artifactId>slf4j-scala-api</artifactId>
-            <version>1.6.2-SNAPSHOT</version>
+            <version>1.6.2</version>
         </bundle>
         <bundle>
             <groupId>org.apache.clerezza</groupId>
@@ -195,17 +195,12 @@
         <bundle>
             <groupId>org.apache.clerezza</groupId>
             <artifactId>rdf.web.core</artifactId>
-            <version>0.3-SNAPSHOT</version>
+            <version>0.3</version>
         </bundle>
         <bundle>
             <groupId>org.apache.clerezza</groupId>
             <artifactId>rdf.web.ontologies</artifactId>
-            <version>0.3-SNAPSHOT</version>
-        </bundle>
-        <bundle>
-            <groupId>org.apache.clerezza</groupId>
-            <artifactId>rdf.web.ontologies</artifactId>
-            <version>0.3-SNAPSHOT</version>
+            <version>0.3</version>
         </bundle>
         <bundle>
             <groupId>org.apache.clerezza</groupId>
