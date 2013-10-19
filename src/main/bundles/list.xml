@@ -232,5 +232,10 @@
             <artifactId>annostore</artifactId>
             <version>1.0-SNAPSHOT</version>
         </bundle>
+        <bundle>
+            <groupId>eu.fusepool</groupId>
+	    <artifactId>silk-fusepool-bundle</artifactId>
+           <version>0.7.0</version>
+        </bundle>
     </startLevel>
 </bundles>
