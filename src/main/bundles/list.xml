@@ -237,5 +237,10 @@
 	    <artifactId>silk-fusepool-bundle</artifactId>
            <version>0.7.0</version>
         </bundle>
+        <bundle>
+            <groupId>eu.fusepool</groupId>
+            <artifactId>ecs_utils</artifactId>
+           <version>1.0-SNAPSHOT</version>
+        </bundle>
     </startLevel>
 </bundles>
