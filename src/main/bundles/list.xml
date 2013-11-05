@@ -63,6 +63,11 @@
         </bundle>
         <bundle>
             <groupId>org.apache.clerezza</groupId>
+            <artifactId>rdf.utils</artifactId>
+            <version>0.14-SNAPSHOT</version>
+        </bundle>
+        <bundle>
+            <groupId>org.apache.clerezza</groupId>
             <artifactId>rdf.cris.core</artifactId>
             <version>0.3-SNAPSHOT</version>
         </bundle>
