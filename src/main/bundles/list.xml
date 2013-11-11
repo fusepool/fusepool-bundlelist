@@ -164,7 +164,7 @@
         <bundle>
             <groupId>org.apache.clerezza.scala</groupId>
             <artifactId>script-engine</artifactId>
-            <version>0.2</version>
+            <version>0.3-SNAPSHOT</version>
         </bundle>
         <bundle>
             <groupId>org.apache.clerezza</groupId>
