@@ -210,12 +210,12 @@
         <bundle>
             <groupId>org.apache.clerezza</groupId>
             <artifactId>rdf.web.core</artifactId>
-            <version>0.3</version>
+            <version>0.4-SNAPSHOT</version>
         </bundle>
         <bundle>
             <groupId>org.apache.clerezza</groupId>
             <artifactId>rdf.web.ontologies</artifactId>
-            <version>0.3</version>
+            <version>0.4-SNAPSHOT</version>
         </bundle>
         <bundle>
             <groupId>org.apache.clerezza</groupId>
