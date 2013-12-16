@@ -247,16 +247,6 @@
 	    <artifactId>silk-fusepool-bundle</artifactId>
            <version>1.0-SNAPSHOT</version>
         </bundle>
-        <!-- these are included in the above <bundle>
-            <groupId>eu.fusepool</groupId>
-	    <artifactId>silk-fusepool-wrapper</artifactId>
-           <version>1.0-SNAPSHOT</version>
-        </bundle>
-        <bundle>
-            <groupId>eu.fusepool</groupId>
-	    <artifactId>silk-fusepool-api</artifactId>
-           <version>1.0-SNAPSHOT</version>
-        </bundle> -->
         <bundle>
            <groupId>org.apache.commons</groupId>
 	   <artifactId>commons-lang3</artifactId>
@@ -276,6 +266,16 @@
             <groupId>eu.fusepool</groupId>
             <artifactId>ecs_utils</artifactId>
            <version>1.0-SNAPSHOT</version>
+        </bundle>
+        <bundle>
+           <groupId>eu.fusepool</groupId>
+           <artifactId>marec_rdfizer</artifactId>
+           <version>1.0-SNAPSHOT</version>
+        </bundle>
+        <bundle>
+          <groupId>eu.fusepool</groupId>
+          <artifactId>pubmed_rdfizer</artifactId>
+          <version>1.0-SNAPSHOT</version>
         </bundle>
     </startLevel>
 </bundles>
