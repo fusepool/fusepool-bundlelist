@@ -25,22 +25,144 @@
         <relativePath>../parent</relativePath>
     </parent>
 
-    <artifactId>fusepool-bundlelist</artifactId>
-    <packaging>partialbundlelist</packaging>
+    <artifactId>fusepool-dependencylist</artifactId>
+    <packaging>feature</packaging>
 
     <name>Fusepool Launcher BundleList</name>
     <description>This is a Maven project which produces the partial list 
-        containing the bundles created by the Fusepool Project Partners.</description>
+        containing the dependencys created by the Fusepool Project Partners.</description>
+ 
 
+    <dependencies>
+        <dependency>
+            <groupId>com.treparel</groupId>
+            <artifactId>KMXClient</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>eu.fusepool</groupId>
+            <artifactId>kmx-rdf-proxy</artifactId>
+            <version>0.2-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>eu.fusepool</groupId>
+            <artifactId>eu.fusepool.platform.commons.felixbranding</artifactId>
+            <version>0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>eu.fusepool</groupId>
+            <artifactId>firstswim</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>eu.fusepool</groupId>
+            <artifactId>ecs.ontologies</artifactId>
+            <version>0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>eu.fusepool</groupId>
+            <artifactId>ecs.core</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>eu.fusepool</groupId>
+            <artifactId>enhancer.engines.ners</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+   	  <dependency>
+            <groupId>eu.fusepool</groupId>
+            <artifactId>enhancer.engines.dictionaryannotator</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.clerezza</groupId>
+            <artifactId>rdf.cris.ontologies</artifactId>
+            <version>0.3-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.clerezza</groupId>
+            <artifactId>rdf.cris.core</artifactId>
+            <version>0.3-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.clerezza</groupId>
+            <artifactId>platform.cris</artifactId>
+            <version>0.2-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.clerezza</groupId>
+            <artifactId>platform.usermanager</artifactId>
+            <version>0.14-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.clerezza</groupId>
+            <artifactId>platform.users.core</artifactId>
+            <version>0.2-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>eu.fusepool</groupId>
+            <artifactId>annostore</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>eu.fusepool</groupId>
+	    <artifactId>silk-fusepool-bundle</artifactId>
+           <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+           <groupId>org.apache.commons</groupId>
+	   <artifactId>commons-lang3</artifactId>
+	   <version>3.1</version>
+        </dependency>
+        <dependency>
+            <groupId>eu.fusepool</groupId>
+	    <artifactId>silklinking-service</artifactId>
+           <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>eu.fusepool</groupId>
+	    <artifactId>datalifecycle</artifactId>
+           <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>eu.fusepool</groupId>
+            <artifactId>ecs_utils</artifactId>
+           <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+           <groupId>eu.fusepool</groupId>
+           <artifactId>marec_rdfizer</artifactId>
+           <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+          <groupId>eu.fusepool</groupId>
+          <artifactId>pubmed_rdfizer</artifactId>
+          <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>eu.fusepool</groupId>
+            <artifactId>fusepool-renderlets</artifactId>
+            <version>0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
     <build>
         <plugins>
             <plugin>
-                <groupId>org.apache.sling</groupId>
-                <artifactId>maven-launchpad-plugin</artifactId>
-                <version>2.2.0</version>
+                <groupId>org.wymiwyg.karaf.tooling</groupId>
+                <artifactId>karaf-sling-maven-plugin</artifactId>
+                <version>3.0.0.RC1</version>
                 <extensions>true</extensions>
+                <configuration>
+                    <startLevel>10</startLevel>
+                    <aggregateFeatures>true</aggregateFeatures>
+                    <resolver>(obr)</resolver>
+                    <checkDependencyChange>false</checkDependencyChange>
+                    <includeTransitiveDependency>false</includeTransitiveDependency>
+                    <createSlingPartialBundleList>true</createSlingPartialBundleList>
+                </configuration>
             </plugin>
         </plugins>
     </build>
+    
 </project>
