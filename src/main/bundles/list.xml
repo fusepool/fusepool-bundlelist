@@ -121,5 +121,10 @@
           <artifactId>pubmed_rdfizer</artifactId>
           <version>1.0-SNAPSHOT</version>
         </bundle>
+        <bundle>
+            <groupId>eu.fusepool</groupId>
+            <artifactId>fusepool-renderlets</artifactId>
+            <version>0.1-SNAPSHOT</version>
+        </bundle>
     </startLevel>
 </bundles>
