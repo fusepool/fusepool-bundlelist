@@ -25,7 +25,7 @@
         <relativePath>../parent</relativePath>
     </parent>
 
-    <artifactId>fusepool-dependencylist</artifactId>
+    <artifactId>fusepool-bundlelist</artifactId>
     <packaging>feature</packaging>
 
     <name>Fusepool Launcher BundleList</name>
