@@ -50,6 +50,26 @@
             <version>0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
+            <groupId>com.xerox</groupId>
+            <artifactId>xeroxservicesapi</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.xerox</groupId>
+            <artifactId>Prediction-Hub</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.xerox.openxerox</groupId>
+            <artifactId>OpenXerox-Client</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.xerox</groupId>
+            <artifactId>Probe3_4</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
             <groupId>eu.fusepool</groupId>
             <artifactId>firstswim</artifactId>
             <version>1.0-SNAPSHOT</version>
