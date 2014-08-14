@@ -199,11 +199,11 @@
             <artifactId>super-csv</artifactId>
             <version>2.2.0</version>
         </dependency>
-        <dependency>
+        <!-- now integrated in fusepool-adapter <dependency>
             <groupId>com.sindice</groupId>
             <artifactId>fusepool-linker</artifactId>
             <version>0.0.1-SNAPSHOT</version>
-        </dependency>
+        </dependency> -->
         <dependency>
             <groupId>com.sindice</groupId>
             <artifactId>fusepool-adapter</artifactId>
